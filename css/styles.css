@@ -16,6 +16,22 @@
   --primary-heading-color: #2e2f42;
   --web-color: #4d5ae5;
 }
+
+/* ------------------visually-hidden  */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* --------------------------------------body  */
 
 body {
@@ -371,6 +387,7 @@ img {
 }
 
 /* -----------------------------------FOOTER */
+
 .footer {
   padding: 100px 0;
   background-color: var(--second-color);
@@ -432,7 +449,6 @@ img {
 .footer-soc-link:focus {
   background-color: #31d0aa;
 }
-/* -----------------footer-form */
 
 .footer-form-wrap {
   margin-left: auto;
@@ -839,17 +855,23 @@ img {
   background-color: #404bbf;
 }
 
-/* ------------------visually-hidden  */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+/*--------------- MEDIA */
+/* -------------------------Mobile------------------- */
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+@media screen and (max-width: 767px) {
+}
+
+/* -------------------------Tablet------------------- */
+
+@media screen and (min-width: 768px) {
+}
+
+/* -------------------------Mobile-Tablet------------------- */
+
+@media screen and (max-width: 1157px) {
+}
+
+/* -------------------------Desktop------------------- */
+
+@media screen and (min-width: 1158px) {
 }
