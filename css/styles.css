@@ -67,13 +67,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-.container {
-  width: 100%;
-
-  padding: 0 15px;
-  margin: 0 auto;
-  background-color: rgb(99, 95, 95);
-}
 
 /* .section {
   padding-top: 120px;
@@ -83,6 +76,14 @@ img {
 .logo {
   font-family: 'Raleway', sans-serif;
   color: var(--web-color);
+}
+
+.container {
+  width: 100%;
+
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: rgb(99, 95, 95);
 }
 
 /* -----------------------------------FOOTER */
@@ -258,10 +259,29 @@ img {
 /* -------------------------Tablet------------------- */
 
 @media screen and (min-width: 768px) {
+  .footer {
+  }
   .container {
-    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    width: 582px;
+  }
+  .footer-wrap,
+  .footer-soc-media {
+    margin-bottom: 0;
+  }
+  .footer-logo {
+    text-align: left;
+  }
+
+  .footer-text {
+    width: 264px;
   }
   .subscribe-text {
+    text-align: left;
+  }
+  .soc-text {
     text-align: left;
   }
 
@@ -271,6 +291,7 @@ img {
   }
   .footer-input {
     margin-bottom: 0;
+    width: 264px;
   }
   .footer-btn {
     margin: 0;
@@ -286,6 +307,14 @@ img {
 
 @media screen and (min-width: 1200px) {
   .container {
+    gap: 0;
     width: 1158px;
+  }
+  .footer {
+    padding: 100px 0;
+  }
+  .footer-soc-media {
+    margin-left: 120px;
+    margin-right: 80px;
   }
 }
