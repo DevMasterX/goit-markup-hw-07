@@ -107,7 +107,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 72px 16px;
+  gap: 72px 24px;
 }
 .customers-item {
   flex-basis: 168px;
@@ -306,6 +306,10 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .customers-list {
+    gap: 72px 16px;
+  }
+
   .customers-item {
     flex-basis: 190px;
     height: 88px;
@@ -368,6 +372,8 @@ img {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .footer .container {
     gap: 0;
