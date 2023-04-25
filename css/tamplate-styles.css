@@ -289,37 +289,36 @@ img {
   gap: 24px;
 }
 /* --------------------------------------team */
-.team {
+/* .team {
   background-color: var(--third-color);
-}
+} */
 
-.section-heading {
+/* .section-heading {
   margin-bottom: 72px;
   color: var(--second-text-color);
-}
+} */
 .team-list {
   display: flex;
   gap: 24px;
 }
 .team-item {
   flex-basis: calc((100%-3 * 24px) / 4);
-  background-color: #ffffff;
+  /* background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px; */
 }
 
-.team-title {
-  /* margin-top: 32px; */
+/* .team-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2px;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   text-align: center;
-}
+} */
 
-.team-job {
+/* .team-job {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -327,16 +326,16 @@ img {
 }
 .team-card {
   padding: 32px 0;
-}
-.team-item .list-title {
+} */
+/* .team-item .list-title {
   line-height: 1.2;
-}
+} */
 .team-soc-list {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.team-soc-item {
+/* .team-soc-item {
   width: 40px;
   height: 40px;
 }
@@ -353,7 +352,7 @@ img {
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: #404bbf;
-}
+} */
 /* ----------------------------------CUSTOMERS  */
 
 .customers-list {
