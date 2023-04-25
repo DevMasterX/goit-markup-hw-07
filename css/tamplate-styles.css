@@ -245,14 +245,14 @@ img {
   letter-spacing: 0.02em; */
   text-transform: capitalize;
 }
-.features-list {
+/* .features-list {
   display: flex;
   gap: 24px;
-}
+} */
 .features-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  /* flex-basis: calc((100% - 3 * 24px) / 4); */
 }
-.features-icon-container {
+/* .features-icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -260,11 +260,11 @@ img {
   height: 112px;
   background-color: #f4f4fd;
   border-radius: 4px;
-}
-.features-icon {
+} */
+/* .features-icon {
   width: 64px;
   height: 64px;
-}
+} */
 
 .list-title {
   margin-bottom: 8px;
