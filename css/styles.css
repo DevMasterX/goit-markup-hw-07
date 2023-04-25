@@ -100,7 +100,17 @@ img {
 
   background-color: rgb(235, 231, 231);
 }
-
+/*---------------------------------- WoORKING ----------------- */
+.working {
+  display: none;
+}
+.working.section {
+  padding-top: 0;
+}
+.working-list {
+  display: flex;
+  gap: 24px;
+}
 /*---------------------------------- OUR TEAM --------------*/
 .team {
   background-color: var(--third-color);
@@ -442,6 +452,12 @@ img {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .working {
+    display: block;
+    padding-bottom: 120px;
+  }
+
   .team,
   .customers {
     padding-top: 120px;
