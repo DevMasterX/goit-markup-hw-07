@@ -200,9 +200,12 @@ img {
   border-radius: 2px;
 }
 
-.menu-toggle {
+.menu-button {
   width: 32px;
   height: 22px;
+}
+.menu-icon {
+  fill: black;
 }
 
 .modal-close-btn {
