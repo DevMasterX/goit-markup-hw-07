@@ -154,15 +154,16 @@ img {
 .header-link {
   padding-top: 24px;
   padding-bottom: 24px;
+
   text-decoration: none;
   color: var(--second-text-color);
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -171,24 +172,31 @@ img {
   margin-left: auto;
   font-style: normal;
 }
+
 .address-list {
   display: flex;
 }
+
 .address-link {
   padding-top: 24px;
   padding-bottom: 24px;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .address-item:not(:last-child) {
   margin-right: 40px;
 }
+
 .current {
   position: relative;
   color: var(--web-color);
 }
+
 .current::after {
   position: absolute;
   content: '';
@@ -196,6 +204,7 @@ img {
   height: 4px;
   left: 0px;
   bottom: -1px;
+
   background: #404bbf;
   border-radius: 2px;
 }
@@ -232,6 +241,7 @@ img {
   background-color: #fff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -254,6 +264,7 @@ img {
   align-items: center;
   width: 24px;
   height: 24px;
+  padding: 0;
 
   color: #2e2f42;
   background-color: transparent;
@@ -272,13 +283,6 @@ img {
   fill: currentColor;
 }
 
-.menu-navigation {
-}
-.menu-list {
-}
-.menu-item {
-}
-
 .menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -289,6 +293,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+
   text-transform: capitalize;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -296,14 +301,11 @@ img {
 .menu-address {
   margin-bottom: 48px;
 }
+
 .menu-address-list {
   display: flex;
   flex-direction: column-reverse;
   gap: 40px;
-}
-
-.item-phone {
-  order: 1;
 }
 
 .menu-address-link {
@@ -312,6 +314,7 @@ img {
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .menu-email {
   font-weight: 500;
   font-size: 20px;
@@ -326,13 +329,14 @@ img {
 
 .menu-soc-list {
   display: flex;
-
   gap: 56px;
 }
+
 .menu-soc-item {
   width: 40px;
   height: 40px;
 }
+
 .menu-soc-link {
   display: flex;
   justify-content: center;
@@ -464,6 +468,7 @@ img {
   align-items: center;
   width: 24px;
   height: 24px;
+  padding: 0;
 
   color: #2e2f42;
   background-color: #e7e9fc;
