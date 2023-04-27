@@ -834,6 +834,7 @@ img {
 .footer-logo {
   display: block;
   text-align: center;
+  padding: 0;
   margin-bottom: 17.5px;
 
   font-family: var(--logo-font);
