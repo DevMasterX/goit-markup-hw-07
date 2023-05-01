@@ -922,17 +922,11 @@ img {
   gap: 48px;
 }
 
-.services-item {
-}
-
 .card-text {
   padding: 32px 16px;
 
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-
-.services-link {
 }
 
 .services-link .list-title {
@@ -1233,15 +1227,27 @@ img {
   .team-item:not(:last-child) {
     margin-bottom: 0;
   }
+
   .portfolio-section {
     padding-top: 64px;
     padding-bottom: 96px;
   }
+
   .portfolio-section .container {
     width: 768px;
   }
   .filter {
+    margin-bottom: 64px;
     gap: 24px;
+  }
+
+  .filter-btn {
+    padding: 12px 24px;
+  }
+
+  .services-list {
+    justify-content: space-between;
+    gap: 48px 24px;
   }
 
   .footer .container {
@@ -1408,8 +1414,13 @@ img {
   .portfolio-section .container {
     width: 1158px;
   }
+
   .filter {
     margin-bottom: 72px;
+  }
+
+  .services-link img {
+    width: 360px;
   }
 
   .footer .container {
